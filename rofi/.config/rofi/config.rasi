@@ -1,0 +1,6 @@
+configuration {
+    font: "JetBrainsMono Nerd Font Propo 12";
+}
+
+
+@theme "/home/dude/.local/share/rofi/themes/rounded-white.rasi"
