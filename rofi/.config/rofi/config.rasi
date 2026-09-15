@@ -3,4 +3,6 @@ configuration {
 }
 
 
-@theme "/home/dude/.local/share/rofi/themes/rounded-white.rasi"
+//@theme "/home/dude/.local/share/rofi/themes/rounded-white.rasi"
+
+@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
