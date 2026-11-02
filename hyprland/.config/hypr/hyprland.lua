@@ -33,8 +33,8 @@ hl.monitor({
 ---------------------
 
 -- Set programs that you use
-local terminal = "kitty"
-local fileManager = "thunar"
+local terminal = "foot"
+local fileManager = "pcmanfm"
 local menu = "rofi -show drun"
 
 -------------------
@@ -184,14 +184,14 @@ hl.window_rule({
 	center = true,
 })
 
-hl.window_rule({
-	name = "",
-	match = { initial_title = "Godot" },
-	size = { 1280, 640 },
-	float = true,
-	center = true,
-	workspace = "empty",
-})
+-- hl.window_rule({
+-- 	name = "",
+-- 	match = { initial_title = "Godot" },
+-- 	size = { 1280, 640 },
+-- 	float = true,
+-- 	center = true,
+-- 	workspace = "empty",
+-- })
 
 -- See https://wiki.hypr.land/configuring/layouts/dwindle-layout/ for more
 hl.config({
@@ -283,6 +283,7 @@ hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit")) -- dwindle only
 
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen())
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("killall -SIGUSR1 waybar"))
+hl.bind(mainMod .. " + ESCAPE", hl.dsp.exec_cmd("systemctl suspend"))
 
 hl.bind("PRINT", hl.dsp.exec_cmd("hyprshot -m window"))
 hl.bind("SHIFT + PRINT", hl.dsp.exec_cmd("hyprshot -m region"))

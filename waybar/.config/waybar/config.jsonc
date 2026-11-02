@@ -12,9 +12,9 @@
         "cpu",
         "memory"
     ],
-    "modules-center": [
-        "hyprland/window"
-    ],
+    // "modules-center": [
+    //     "hyprland/window"
+    // ],
     "modules-right": [
         // "network",
         "clock",

@@ -1,8 +1,6 @@
 configuration {
-    font: "JetBrainsMono Nerd Font Propo 12";
+    font: "Iosevka Nerd Font Propo 14";
+    show-icons: true;
 }
 
-
-//@theme "/home/dude/.local/share/rofi/themes/rounded-white.rasi"
-
-@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
